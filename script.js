@@ -15,7 +15,7 @@ class Calculator {
     constructor() {}
     
     plus(value, secondValue) {
-        return value + secondValue;
+        return (value * 10 + secondValue * 10) / 10;
     }
     
     minus(value, secondValue) {
